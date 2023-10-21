@@ -1,7 +1,7 @@
 // Get all the links on the webpage
 var links = document.querySelectorAll('a');
 
-// Loop through each link and add the desired attributes to external links
+// Add attributes to each link
 links.forEach(function(link) {
   var href = link.getAttribute('href');
 
